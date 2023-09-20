@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: 2px solid #000; /* solid deixa a borda reta */
+}
+
+.border{
+    border: 1px dotted #26ff00; /* dotted deixa a borda pontilhada */
+}
+.bola{
+    border-radius: 50%;
+    background-color: maroon;
+}
+.sombra{
+    box-shadow: 10px #000;
+}
