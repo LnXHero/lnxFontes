@@ -13,5 +13,7 @@ div {
     background-color: maroon;
 }
 .sombra{
-    box-shadow: 10px #000;
+    box-shadow: 10px 10px 50px #000; 
 }
+/*box-shadow - (distancia do bloco original "horizontal")(distancia do bloco original "vertcal")(quantidade de blur) (#000 - cor) */
+/* "Box-Shadow generator" site para a criação de box-shadows mais facil do que manualmente */
