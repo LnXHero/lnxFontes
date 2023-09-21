@@ -1,3 +1,10 @@
 * {
+    text-align: center;
+    color: rgb(0, 0, 138);
     font-family: 'Skranji', cursive;
+    text-shadow: 5px 5px 10px #858585; /* usar o "*{}" para colocar isso em todas as tags no html */
+}
+h1 {
+    color: greenyellow;
+    text-shadow: 5px 5px 5px green;
 }
