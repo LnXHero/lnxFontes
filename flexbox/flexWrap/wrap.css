@@ -1,0 +1,27 @@
+* {
+    font-family: cursive;
+}
+.conteiner {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: flex;
+}
+.item {
+    flex: 1;
+    margin: 5px;
+    background-color: orange;
+    text-align: center;
+    font-size: 1.25em;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: 500;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
