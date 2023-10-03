@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 100%;
+    border: 1px solid gray;
+}
+.box {
+    height: 150px;
+}
+.item1 {
+    background-color: blue;
+    flex-grow: 1;
+}
+.item2 {
+    background-color: gray;
+    flex-grow: 1;
+}
+.item3 {
+    background-color: blue;
+    flex-grow: 2;
+}
+.item4 {
+    background-color: gray;
+    flex-grow: 1;
+}
+/* Faz um calculo da fração pela quantidade de blocos que tem na mesma linha, se colocar por exemplo 
+Flex-Grow de 2 ele ocupa 2/X da tela sendo X a quantidade de elementos na linha */
